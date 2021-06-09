@@ -1,10 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to my page
 
-You can use the [editor on GitHub](https://github.com/shoaibsaikat/shoaibsaikat.com/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+I am a software developer in core. Currently workign as a System Analyst in Bangladesh Economic Zones Authority.
+Previously I worked for more that 6 years as an Engineer at Samsung R&D Institute Bangladesh Ltd. and 2 years at Relisource Technologies Ltd.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### Technologies I've Worked with:
+- C/C++
+- Java
+- RTOS
+- TIZEN
+- Android
+- iOS
+- ASP .NET MVC
+- AngularJs
+- Xamarin
+- Django
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
