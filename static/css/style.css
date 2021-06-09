@@ -11,6 +11,10 @@
     font-size: larger;
 }
 
+.card-empty {
+    width: 4px;
+}
+
 .card-footer-default {
     font-size: xx-small;
 }
