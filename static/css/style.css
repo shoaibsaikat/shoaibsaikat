@@ -1,13 +1,9 @@
-.custom-header {
-    background-color: #ffec95;
-    font-family: 'Cinzel Decorative', cursive;
+.default-font {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.left-panel {
-    background-color: #ff514b;
-    height: 100%;
+.card-default {
+    /* max-width: 58rem; */
+    padding-left: auto;
+    padding-right: auto;
 }
-
-/*
-font-family: 'Montserrat', sans-serif;
-*/
