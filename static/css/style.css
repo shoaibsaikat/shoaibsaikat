@@ -2,19 +2,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.card-default {
-    padding-left: auto;
-    padding-right: auto;
-}
-
-.footer {
-    font-size: xx-small;
-}
-
-.title {
+.card-header-title {
+    font-family: 'Cinzel Decorative', cursive;
     font-size: x-large;
 }
 
-.header-font {
-    font-family: 'Cinzel Decorative', cursive;
+.card-header-default-title {
+    font-size: larger;
+}
+
+.card-footer {
+    font-size: xx-small;
 }
