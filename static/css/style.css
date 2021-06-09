@@ -1,3 +1,13 @@
 .custom-header {
-    background-color: #ff6257;
+    background-color: #ffec95;
+    font-family: 'Cinzel Decorative', cursive;
 }
+
+.left-panel {
+    background-color: #ff514b;
+    height: 100%;
+}
+
+/*
+font-family: 'Montserrat', sans-serif;
+*/
