@@ -3,7 +3,18 @@
 }
 
 .card-default {
-    /* max-width: 58rem; */
     padding-left: auto;
     padding-right: auto;
+}
+
+.footer {
+    font-size: xx-small;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.header-font {
+    font-family: 'Cinzel Decorative', cursive;
 }
