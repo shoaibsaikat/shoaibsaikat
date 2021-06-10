@@ -19,10 +19,18 @@
     font-size: smaller;
 }
 
-.card-empty {
-    width: 4px;
-}
-
 .card-footer-default {
     font-size: xx-small;
+}
+
+.bg-yellow {
+    background-color: #F5E8AE!important;
+}
+
+.bg-dim-blue {
+    background-color: #6FD0D9!important;
+}
+
+.bg-cyan {
+    background-color: #B8FFE6!important;
 }
