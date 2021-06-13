@@ -1,16 +1,7 @@
-## Welcome to my page
+## shoaibsaikat
 
-I am a software developer in core. Currently workign as a System Analyst in Bangladesh Economic Zones Authority.
-Previously I worked for more that 6 years as an Engineer at Samsung R&D Institute Bangladesh Ltd. and 2 years at Relisource Technologies Ltd.
+My personal portfolio site.
+Address: shoaibsaikat.com
 
-### Technologies I've Worked with:
-- C/C++
-- Java
-- RTOS
-- TIZEN
-- Android
-- iOS
-- ASP .NET MVC
-- AngularJs
-- Xamarin
-- Django
+NOTE: Still in progress
+
