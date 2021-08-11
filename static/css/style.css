@@ -76,3 +76,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.certification-text {
+    font-size: small;
+}
+
+.certification-link {
+    text-decoration: none;
+}
