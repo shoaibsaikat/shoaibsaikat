@@ -16,8 +16,11 @@ function onChanged() {
         document.getElementById('my-certification').classList.remove('bg-cyan', 'text-dark');
         document.getElementById('my-certification').classList.add('bg-dark', 'text-white-50');
 
-        document.getElementById('copy-right').classList.remove('bg-dark', 'text-white-50');
+        document.getElementById('copy-right').classList.remove('bg-secondary', 'text-white');
         document.getElementById('copy-right').classList.add('bg-cyan', 'text-dark');
+
+        document.getElementById('theme').classList.remove('bg-secondary', 'text-white');
+        document.getElementById('theme').classList.add('bg-cyan', 'text-dark');
 
 
     } else {
@@ -36,6 +39,9 @@ function onChanged() {
         document.getElementById('my-certification').classList.add('bg-cyan', 'text-dark');
 
         document.getElementById('copy-right').classList.remove('bg-cyan', 'text-dark');
-        document.getElementById('copy-right').classList.add('bg-dark', 'text-white-50');
+        document.getElementById('copy-right').classList.add('bg-secondary', 'text-white');
+
+        document.getElementById('theme').classList.remove('bg-cyan', 'text-dark');
+        document.getElementById('theme').classList.add('bg-secondary', 'text-white');
     }
 }
