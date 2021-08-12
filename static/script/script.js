@@ -1,6 +1,9 @@
 function onChanged() {
     var toggleButton = document.getElementById("flexSwitch");
     if (toggleButton.checked) {
+
+        document.getElementById('mode-name').innerHTML = "Light";
+
         document.body.classList.remove("bg-cyan");
         document.body.classList.add("bg-dark");
 
@@ -10,8 +13,13 @@ function onChanged() {
         document.getElementById('career-history').classList.remove('bg-cyan', 'text-dark');
         document.getElementById('career-history').classList.add('bg-dark', 'text-white-50');
 
+        document.getElementById('copy-right').classList.remove('bg-dark', 'text-white-50');
+        document.getElementById('copy-right').classList.add('bg-cyan', 'text-dark');
+
 
     } else {
+        document.getElementById('mode-name').innerHTML = "Dark";
+
         document.body.classList.remove("bg-dark");
         document.body.classList.add("bg-cyan");
 
@@ -20,5 +28,8 @@ function onChanged() {
 
         document.getElementById('career-history').classList.remove('bg-dark', 'text-white-50');
         document.getElementById('career-history').classList.add('bg-cyan', 'text-dark');
+
+        document.getElementById('copy-right').classList.remove('bg-cyan', 'text-dark');
+        document.getElementById('copy-right').classList.add('bg-dark', 'text-white-50');
     }
 }
