@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <script src="./static/script/script.js" ></script>
 </head>
 <body class="bg-cyan">
     <div class="container default-font">
@@ -28,7 +27,7 @@
             <div class="col-xl-3">
                 <!-- image -->
                 <div class="row">
-                  <div id="profile-pic" class="card text-dark bg-secondary mb-3 col-11"  style="--bs-bg-opacity: .5;">
+                  <div id="profile-pic" class="card text-dark bg-secondary mb-3 col-11" style="--bs-bg-opacity: .5;">
                     <div class="card-img-top text-center">
                       <img class="rounded profile-pic" src="static/IMG_SAIKAT_KOREA.jpg" width="235px" height="235px" alt="Mina Shoaib Rahman">
                     </div>
@@ -112,7 +111,7 @@
                   <div class="card text-dark bg-yellow mb-3 col-11 color-changer">
                     <div class="card-body">
                       <div class="form-check form-switch row">
-                        <label for="flexSwitch" class="card-footer-default">Mina Shoaib Rahman 2021.</label>
+                        <label for="flexSwitch" class="card-footer-default">&copy; Mina Shoaib Rahman 2021.</label>
                         <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
                       </div>
                     </div>
@@ -125,7 +124,7 @@
             <!-- body -->
             <div class="col-xl-9">
               <div class="row">
-                <div class="card text-dark bg-dim-blue mb-3 col">
+                <div id="about-me" class="card text-dark bg-cyan mb-3 col">
                   <div class="card-header card-header-default-title">About Me</div>
                   <div class="card-body">
                     <p class="card-text para-default">
@@ -137,7 +136,7 @@
               </div>
 
               <div class="row">
-                <div class="card text-dark bg-dim-blue mb-3 col">
+                <div id="career-history" class="card text-dark bg-cyan mb-3 col">
                   <div class="card-header card-header-default-title">Career History</div>
                   <div class="card-body">
                     <ul>
@@ -204,5 +203,6 @@
             </div>
         </div>
     </div>
+    <script src="./static/script/script.js" ></script>
 </body>
 </html>
