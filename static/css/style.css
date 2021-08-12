@@ -88,3 +88,11 @@
 .text-gray {
     color: white;
 }
+
+.body-font {
+    font-size: medium;
+}
+
+.title-font {
+    font-size: large;
+}
