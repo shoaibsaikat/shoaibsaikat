@@ -19,8 +19,8 @@ function onChanged() {
         document.getElementById('copy-right').classList.remove('bg-secondary', 'text-white');
         document.getElementById('copy-right').classList.add('bg-cyan', 'text-dark');
 
-        document.getElementById('theme').classList.remove('bg-secondary', 'text-white');
-        document.getElementById('theme').classList.add('bg-cyan', 'text-dark');
+        document.getElementById('theme').classList.remove('text-dark');
+        document.getElementById('theme').classList.add('text-white');
 
 
     } else {
@@ -41,7 +41,7 @@ function onChanged() {
         document.getElementById('copy-right').classList.remove('bg-cyan', 'text-dark');
         document.getElementById('copy-right').classList.add('bg-secondary', 'text-white');
 
-        document.getElementById('theme').classList.remove('bg-cyan', 'text-dark');
-        document.getElementById('theme').classList.add('bg-secondary', 'text-white');
+        document.getElementById('theme').classList.remove('text-white');
+        document.getElementById('theme').classList.add('text-dark');
     }
 }

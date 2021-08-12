@@ -18,7 +18,14 @@
         <div class="row">
           <!-- header -->
           <div class="card text-dark bg-danger mb-3">
-            <div class="card-header-title">Mina Shoaib Rahman</div>
+            <div class="card-header-title">
+              <div class="header-name" style="float: left;">Mina Shoaib Rahman</div>
+              <div class="form-check form-switch" style="float: right;">
+                <label for="flexSwitch" class="card-footer-default"><span id="mode-name" style="font-size: 18px;"><strong>Dark</strong></span></label>
+                <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
+              </div>
+            </div>
+
           </div>
         </div>
         
@@ -36,17 +43,19 @@
                 </div>
 
                 <!-- theme -->
+                <!-- <div class="row">&nbsp;</div>
                 <div class="row">
-                  <div id="theme" class="card bg-secondary text-white mb-3 col-11">
+                  <div id="theme" class="card bg-transparent text-dark mb-3 col-11 cloned-4">
                     <div class="card-body">
                       <div class="form-check form-switch row">
-                        <label for="flexSwitch" class="card-footer-default"><span id="mode-name" style="font-size: 16px;">Dark</span></label>
+                        <label for="flexSwitch" class="card-footer-default"><span id="mode-name" style="font-size: 16px;"><strong>Dark</strong></span></label>
                         <input class="form-check-input" type="checkbox" id="flexSwitch" onchange="onChanged()">
                       </div>
                     </div>
                   </div>
                   <div class="col-1"></div>
                 </div>
+                <div class="row">&nbsp;</div> -->
 
                 <!-- framework -->
                 <div class="row">
@@ -69,7 +78,7 @@
 
                 <!-- social -->
                 <div class="row">
-                  <div class="card text-dark bg-yellow mb-3 col-11 color-changer">
+                  <div class="card text-dark bg-yellow mb-3 col-11 color-changer multicolor-6">
                     <div class="card-header card-header-default-title"><strong>Know Me</strong></div>
                     <div class="card-body">
                       <p class="card-text">
@@ -91,7 +100,7 @@
             <!-- about -->
             <div class="col-xl-9">
               <div class="row">
-                <div id="about-me" class="card text-dark bg-cyan mb-3 col">
+                <div id="about-me" class="card text-dark bg-cyan mb-3">
                   <div class="card-header card-header-default-title"><strong>About Me</strong></div>
                   <div class="card-body">
                     <p class="card-text para-default body-font">
@@ -104,7 +113,7 @@
 
               <!-- work history -->
               <div class="row">
-                <div id="career-history" class="card text-dark bg-cyan mb-3 col">
+                <div id="career-history" class="card text-dark bg-cyan mb-3">
                   <div class="card-header card-header-default-title"><strong>Career History</strong></div>
                   <div class="card-body">
                     <ul>
@@ -163,7 +172,7 @@
 
               <!-- certification -->
               <div class="row">
-                <div id="my-certification" class="card text-dark bg-cyan mb-3 col">
+                <div id="my-certification" class="card text-dark bg-cyan mb-3">
                   <div class="card-header card-header-default-title"><strong>Major Certifications</strong></div>
                   <div class="card-body">
                     <p class="card-text">
@@ -196,7 +205,7 @@
 
               <!-- footer -->
               <div class="row">
-                <div id="copy-right" class="card bg-secondary text-white mb-3 col">
+                <div id="copy-right" class="card bg-secondary text-white mb-3 col multicolor-1">
                   <div class="card-body">
                     <p class="card-text para-default">
                       &copy; Copyright protected by Mina Shoaib Rahman 2021.
